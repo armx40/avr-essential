@@ -18,11 +18,12 @@ Essential functions to get started with programming an AVR ATmega MCU
 - Read a character using `USARTReadChar()`.
 - Write a character using `USARTWriteChar(char data)`.
 - Read a string using `USARTReadString(int si)`. Where `int si` is the size of the string to read.
-- Send a string using `USARTSendString(char s[])`. Where `char s[]` is the string to be sent. 
+- Send a string using `USARTSendString(char s[])`. Where `char s[]` is the string to be sent.
 #### SPI
 - To initilize Master use `initMasterSPI()`.
 - To initilize Slave use `initSlaveSPI()`.
 - To transmit data in Master mode use `transmitMaster(unsigned char data)`.
+- To receive data in Slave mode use `receiveSlave()`.
 #### ADC
 - To initilize ADC use `initADC()`.
 - To read the input voltage use `readADC(uint8_t ch)`. Where `uint8_t ch` is the channel.
