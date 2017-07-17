@@ -10,4 +10,4 @@ Essential functions to get started with programming an AVR ATmega MCU
 - USART
 - SPI
 - ADC
-more functionalities will be added regularly.
+* more functionalities will be added regularly.
