@@ -63,7 +63,7 @@ void USARTSendString(char s[]){
 
 // SPI START //
 void initMasterSPI() {
-  DDRB |= (1<<PB5)|(1<<PB3)|(1<<PB2)|(1<<PB1);
+  DDRB |= (1<<PB5)|(1<<PB3)|(1<<PB2);
   SPCR = (1<<SPE) | (1<<MSTR) | (1<<SPR0);
 }
 char transmitMaster(unsigned char data) {
