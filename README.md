@@ -14,7 +14,7 @@ Essential functions to get started with programming an AVR ATmega MCU
 
 ## Usage
 #### USART
-- To initialize USART use `USARTinit(uint16_t ubrr_value)`. For various `ubrr_value` visit this site or check the datasheet.
+- To initialize USART use `USARTinit(uint16_t ubrr_value)`. For various `ubrr_value` visit this [site](http://wormfood.net/avrbaudcalc.php) or check the datasheet.
 - Read a character using `USARTReadChar()`.
 - Write a character using `USARTWriteChar(char data)`.
 - Read a string using `USARTReadString(int si)`. Where `int si` is the size of the string to read.

@@ -1,9 +1,5 @@
-#define F_CPU 1000000UL
-#define MCU 328
+#define MCU 328 // 328 for ATmega320 or 8 for ATmega8`
 #include <avr/io.h>
-#include <stdio.h>
-#include <util/delay.h>
-#include <avr/interrupt.h>
 
 // USART START //
 void USARTinit(uint16_t ubrr_value){
