@@ -1,4 +1,4 @@
-#define MCU 328 // 328 for ATmega320 or 8 for ATmega8`
+#define MCU 328 // 328 for ATmega328 or 8 for ATmega8`
 #include <avr/io.h>
 
 // USART START //
